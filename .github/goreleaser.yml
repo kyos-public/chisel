@@ -83,8 +83,7 @@ kos:
     build: chisel
     main: .
     repositories:
-      - ghcr.io/jpillora/chisel
-      - docker.io/jpillora/chisel
+      - ghcr.io/kyos-public/chisel
     tags:
       - "{{ .Version }}"
     base_image: localhost:5000/chisel-ko-base:local
